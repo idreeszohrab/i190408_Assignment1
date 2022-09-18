@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="183dp"
+        android:layout_height="203dp"
+        android:src="@drawable/musify"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="397dp"
+        android:layout_height="61dp"
+        android:background="@drawable/name"
+        android:hint="Email"
+        android:textColorHint="#FFC107"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="401dp"
+        android:layout_height="58dp"
+        android:background="@drawable/name"
+        android:hint="Password"
+        android:textColorHint="#FFC107"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_background"
+        android:text="Sign IN"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <TextView
+        android:id="@+id/forgotyourpassword"
+        android:layout_width="338dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="Forgot your password?"
+        android:textColor="#FFC107"
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
